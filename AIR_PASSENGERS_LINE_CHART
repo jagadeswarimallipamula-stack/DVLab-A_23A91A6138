@@ -3,7 +3,6 @@ data("AirPassengers")
 ?AirPassengers  # For help/documentation
 class(AirPassengers)
 View(AirPassengers)
-
 # Create a data frame with Years and Months separately
 ap_df <- data.frame(
   year = floor(time(AirPassengers)),
