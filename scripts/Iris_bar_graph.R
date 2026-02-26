@@ -1,3 +1,8 @@
+# Data Visualization Lab – Week 3a)
+
+## Objective
+Load iris dataset in R, visualize the data using different Bar Charts and also
+demonstrate the use of stacked plots.
 # Load the Dataset
 data(iris)
 
