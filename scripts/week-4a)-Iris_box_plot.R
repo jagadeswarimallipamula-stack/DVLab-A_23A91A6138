@@ -1,3 +1,8 @@
+# Data Visualization Lab – Week 4a)
+
+## Objective
+Load iris dataset in R, visualize the data using different Box plots including group
+by option and also use color palette to represent species.
 #load the Data
 data(iris)
 #Understand the Data
