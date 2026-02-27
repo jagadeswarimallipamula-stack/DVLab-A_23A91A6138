@@ -1,4 +1,6 @@
-#Data visualization- Week-3
+#Data visualization- Week-3b)
+#objective
+#Load air quality dataset in R and visualize ozone concentration in air.
 # Load the built-in airquality dataset
 data("airquality")
 
@@ -40,7 +42,6 @@ ozone_level <- cut(
   breaks = c(0, 30, 60, 100, 200),
   labels = c("Low", "Medium", "High", "Very High")
 )
-
 # Create frequency table
 ozone_table <- table(aq$Month, ozone_level)
 
@@ -54,9 +55,7 @@ barplot(
   ylab = "Frequency",
   legend = colnames(ozone_table)
 )
-
 # Stacked Bar Chart
-
 
 barplot(
   ozone_table,
